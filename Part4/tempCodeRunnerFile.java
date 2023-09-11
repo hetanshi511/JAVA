@@ -6,11 +6,9 @@ public class prac1 {
     Scanner sc = new Scanner(System.in);
     boolean inputCorrect = true;
     try {
-      System.out.print("ENter x :");
       int x = sc.nextInt();
-      System.out.print("ENter y :");
       int y = sc.nextInt();
-      System.out.println("ANswer is " + (x + y));
+      System.out.println(x + y);
     } catch (Exception e) {
       System.out.println("You did not type an integer!");
       inputCorrect = false;
